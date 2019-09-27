@@ -210,25 +210,26 @@ class Bagiannama extends StatelessWidget {
                   style: new TextStyle(fontSize: 20, color: Colors.blue),
                 ),
                 new Text(
-                  "$nama\@gmail.com",
+                  // "$nama\@gmail.com",
+                  "Deskrispi",
                   style: new TextStyle(fontSize: 17, color: Colors.black),
                 ),
               ],
             ),
           ),
-          new Row(
-            children: <Widget>[
-              new Icon(
-                Icons.star,
-                size: 50,
-                color: Colors.red,
-              ),
-              new Text(
-                '12',
-                style: new TextStyle(fontSize: 18),
-              ),
-            ],
-          )
+          // new Row(
+          //   children: <Widget>[
+          //     new Icon(
+          //       Icons.star,
+          //       size: 50,
+          //       color: Colors.red,
+          //     ),
+          //     new Text(
+          //       '12',
+          //       style: new TextStyle(fontSize: 18),
+          //     ),
+          //   ],
+          // )
         ],
       ),
     );
